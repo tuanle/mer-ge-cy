@@ -1,1 +1,24 @@
-site_name: My Docs
+site_name: Review Merge Request
+theme: readthedocs
+pages:
+- Tổng quan:
+    - 'Mục đích': index.md
+- 'Quy định':
+    - 'Coding convention':
+        - 'Giới thiệu': 'developer/coding_convention/index.md'
+        - 'psr1': 'developer/coding_convention/psr1.md'
+        - 'psr2': 'developer/coding_convention/psr2.md'
+        - 'CakePHP': 'developer/coding_convention/cakephp.md'
+        - 'Một số quy tắc khác': 'developer/coding_convention/other.md'
+    - 'Các test case cơ bản':
+        - 'Giới thiệu': 'developer/common_test/index.md'
+    - 'Tạo merge request':
+        - 'Giới thiệu': 'developer/create_request/index.md'
+        - 'Git flow': 'developer/create_request/git_flow.md'
+- 'Yêu cầu thực hiện':
+    - 'Đối với developer': 'rule/developer.md'
+    - 'Đối với reviewer': 'rule/reviewer.md'
+    - 'Vi phạm': 'rule/minus.md'
+    - 'Đóng góp': 'rule/plus.md'
+    - 'Cách thức đánh giá': 'rule/do.md'
+

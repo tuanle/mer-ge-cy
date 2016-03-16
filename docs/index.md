@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+## Đối với developer
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+* Các quy ước về việc tự kiểm tra code trước khi tạo merge request
+* Các quy ước về việc tạo merge request
+* Các quy ước về việc chỉnh sửa merge request
 
-## Commands
+## Đối với reviewer
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* Cách thức review và đánh giá chất lượng code thông qua merge request
+* Cách thức đánh giá nhân viên thông qua review merge request
+* Kiểm soát chất lượng code của dự án
